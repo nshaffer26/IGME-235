@@ -1,0 +1,3 @@
+ErrorDocument 404 /njs7772/235/error/error.html
+
+DirectoryIndex noterror.html

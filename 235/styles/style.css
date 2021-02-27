@@ -1,0 +1,93 @@
+/* Color Palette: https://coolors.co/fcfaee-74b3ce-508991-172a3a-004346-09bc8a */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto Mono', monospace;
+    background-color: #172A3A;
+}
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+a:link {
+    color: #508991;
+}
+a:visited {
+    color: #508991;
+}
+a:focus, a:hover {
+    color: #09BC8A;
+}
+a:active {
+    color: #09BC8A
+}
+
+header, main, footer {
+    background-color: #FCFAEE;
+}
+header {
+    padding: 10px;
+    border-top: 24px solid #74B3CE;
+    border-left: 12px solid #74B3CE;
+}
+main {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 24px solid #74B3CE;
+    border-right: 12px solid #74B3CE;
+}
+footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-right: 12px solid #74B3CE;
+    border-bottom: 24px solid #74B3CE;
+}
+
+#about {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+#about div {
+    margin: 0;
+}
+#about img {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+#project_list {
+    display: grid;
+    grid-template-areas:
+        "project_1"
+        "project_2"
+        "project_3";
+}
+#project_1 { grid-area: project_1; }
+#project_2 { grid-area: project_2; }
+#project_3 { grid-area: project_3; }
+
+.project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.project div {
+    padding: 10px;
+}
+.project_image {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}

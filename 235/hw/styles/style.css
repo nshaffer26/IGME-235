@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Andy Bold";
+    src: url(./fonts/Andy_Bold.ttf);
+}
+
+html {
+    font-family: "Andy Bold", Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+body {
+    background-color: #E2F4FC;
+}
+
+header {
+    border-bottom: 2px solid #192CED;
+}
+section {
+    border-bottom: 2px solid #192CED;
+}
+footer {
+    margin: 10px 0;
+    padding: 10px 0;
+    background-color: #F1B807;
+}
+header img {
+    display: block;
+    margin: 0 auto;
+    width: 50vw
+}
+
+h1 {
+    color: #192CED;
+    font-family: "Ranchers", sans-serif;
+    font-size: 3em;
+}
+
+h2 {
+    margin-left: 10px;
+    font-family: "Ranchers", sans-serif;
+    color: #FD1E14;
+}
+
+a:link {
+    color: #F4F33F;
+}
+a:visited {
+    color: #F4F33F;
+}
+a:focus, a:hover {
+    color: #F77112;
+}
+a:active {
+    color: #F4F33F
+}
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-left: 40px;
+}
+strong {
+    font-variant: small-caps;
+}
+
+blockquote {
+    padding: 1rem;
+    background-color: #F1B807;
+}
+
+img.gallery {
+    height: 30vh;
+}
